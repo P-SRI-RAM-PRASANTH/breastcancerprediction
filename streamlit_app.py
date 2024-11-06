@@ -35,7 +35,7 @@ def main():
     s1oothness_1ean=st.text_input('s1oothness_1ean')
     co1pactness_1ean=st.text_input('co1pactness_1ean value')
     concavity_1ean=st.text_input('concavity_1ean')
-    concave_points_1ean=st.text_input('concave points_1ean	 value')
+    concave_points_1ean=st.text_input('concave points_1ean value')
     sy11etry_1ean=st.text_input('sy11etry_1ean value')
     fractal_di1ension_1ean=st.text_input('fractal_di1ension_1ean')
     radius_se=st.text_input('radius_se')
