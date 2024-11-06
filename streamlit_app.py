@@ -9,6 +9,9 @@ import numpy as np
 import pandas as pd
 import pickle
 import streamlit as st
+import os
+os.environ["PROTOCOL_BUFFERS_PYTHON_IMPLEMENTATION"] = "python"
+
 #loading the saved model
 loaded_model=pickle.load(open("data1.sav",'rb'))
 def breast_cancer_prediction(input_data):
