@@ -15,7 +15,8 @@ setup(
     ],
     entry_points={
         'console_scripts': [
-            'run-app=app:main',  # assumes you have a `main()` function in app.py
+            'run-app=streamlit_app:main',
         ],
     },
 )
+
